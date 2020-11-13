@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
 
 body{
     width: 1920px;
-    margin: auto
+    margin: auto;
 }
 
 header {
@@ -14,14 +16,14 @@ header {
     text-align: right;
   }
 #header_nav{
-    margin-right:50px;
+    padding-right:50px;
     padding-top:90px;  
 }
 #header_nav li{
     list-style-type: none;
     display: inline;
     margin-right:50px;
-    font-family: Karla, sans-serif;
+    font-family: 'Karla', sans-serif;
     font-size: 30px;
     letter-spacing: 2px; 
 
@@ -37,38 +39,56 @@ header {
 
 
 
-.images1 img, .images2 img{
+#images1 img, #images2 img{
     float:left;
 }
 
-.images1 img{
+#images1 img{
     height:684px;
     width: 50%;
 }
-.images2 img{
+#images2 img{
     height:475px;
     width: 25%;
 }
-.images1::after{
+#images1::after{
     clear:both;
     display:block;
     content:"";}
-.images2::after{
+#images2::after{
     clear:both;
     display:block;
     content:"";
 }
 
-.expand{
+#expand{
     display: block;
     height: 184px;
     font-size: 32px;
-    font-family: Karla, sans-serif;
+    font-family: 'Karla', sans-serif;
     
 }
 
-.expand p{
+#expand p{
     padding-top: 75px;
     text-align: center;
 }
 
+#what{
+    height:280px;
+    column-count: 2;
+    column-gap: 300px;
+    column-rule: 1px solid black;
+    margin-top:110px;
+}
+
+#what_left{
+    font-size: 76px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+#what_right{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    width:650px;
+}
