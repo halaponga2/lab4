@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 * {
@@ -11,6 +11,7 @@ body{
     margin: auto;
 }
 
+
 header {
     height: 220px;
     text-align: right;
@@ -21,20 +22,26 @@ header {
 }
 #header_nav li{
     list-style-type: none;
-    display: inline;
+    display: inline-block;
     margin-right:50px;
     font-family: 'Karla', sans-serif;
     font-size: 30px;
     letter-spacing: 2px; 
-
 }
 #header_nav a{
     text-decoration: none;
     color: black;
 }
 
+#header_nav a::after{
+    display: block;
+    font-weight: bold;
+    content: attr(title);
+    visibility: hidden;
+}
+
 #header_nav a:hover{
-    text-shadow: 0 0 1px;
+    font-weight: bold;
 }
 
 
@@ -86,9 +93,74 @@ header {
     font-size: 76px;
     text-align: center;
     font-family: 'Karla', sans-serif;
+    margin-left:100px
 }
 #what_right{
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     width:650px;
+    line-height: 1.6em;
+}
+
+#what_continue{
+    height: 1040px;
+}
+
+#what_continue img{
+    display: block;
+    margin-left:123px;
+    margin-top:30px;
+    width: 660px;
+    height: 450px;
+    float:left;
+}
+
+.box{
+    height: 55px;
+    width: 55px;
+    background-color: #f1f1f1;
+}
+.box_text{
+    position: relative;
+    bottom:50px;
+    font-family: 'Karla', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    width: 300px;
+    margin-left:300px;
+}
+
+#box_bold{
+    background-color: #d4d4d4;
+}
+#box_text_bold{
+    font-weight: bold;
+}
+
+.line{
+float: left;
+margin-left: 150px;
+padding-bottom: 50px;
+}
+
+
+#what_text::before{
+    display:block;
+    content:"";
+    clear: both;
+}
+
+#ux{
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    margin-left: 420px;
+}
+
+#ux_text{
+    font-family: 'Open Sans', sans-serif;
+    width: 660px;
+    line-height: 1.6em;
+    margin-top: 40px;
+    margin-left:140px;
+    font-size: 18px;
 }
