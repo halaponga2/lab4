@@ -7,7 +7,7 @@
 }
 
 body{
-    width: 1920px;
+    width: 1903px;
     margin: auto;
 }
 
@@ -38,6 +38,7 @@ header {
     font-weight: bold;
     content: attr(title);
     visibility: hidden;
+    height:1px;
 }
 
 #header_nav a:hover{
@@ -83,24 +84,34 @@ header {
 
 #what{
     height:280px;
-    column-count: 2;
-    column-gap: 300px;
-    column-rule: 1px solid black;
     margin-top:110px;
 }
-
-#what_left{
+.heading{
     font-size: 76px;
     text-align: center;
     font-family: 'Karla', sans-serif;
-    margin-left:100px
+}
+
+#what_left{
+    margin-left:280px;
+    text-align:left;
+    float:left;
+}
+#what_bar{
+    margin-left:340px;
 }
 #what_right{
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    width:650px;
-    line-height: 1.6em;
+    float:left;
+    margin-left:150px;
 }
+
+.text{
+    font-family: 'Open Sans', sans-serif;
+    width: 660px;
+    line-height: 1.6em;
+    font-size: 18px;
+}
+
 
 #what_continue{
     height: 1040px;
@@ -127,7 +138,7 @@ header {
     font-size: 32px;
     text-align: center;
     width: 300px;
-    margin-left:300px;
+    margin-left:350px;
 }
 
 #box_bold{
@@ -138,9 +149,9 @@ header {
 }
 
 .line{
-float: left;
-margin-left: 150px;
-padding-bottom: 50px;
+    float: left;
+    margin-left: 140px;
+    padding-bottom: 50px;
 }
 
 
@@ -157,10 +168,39 @@ padding-bottom: 50px;
 }
 
 #ux_text{
-    font-family: 'Open Sans', sans-serif;
-    width: 660px;
-    line-height: 1.6em;
     margin-top: 40px;
     margin-left:140px;
-    font-size: 18px;
+}
+
+#about img{
+    float:left;
+    margin-left:123px;
+    height: 790px;
+    width: 660px;
+}
+
+#about{
+    height: 1000px;
+}
+
+#about_right{
+    float:left;
+    margin-left:150px;
+}
+
+
+
+#about_text{
+    margin-top:130px;
+}
+
+.vertical_bar{
+    width: 1px;
+    height: 108px;
+    background-color: black;
+    float:left;
+}
+
+#about_bar{
+    margin-left: 165px;
 }
