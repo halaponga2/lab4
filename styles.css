@@ -131,6 +131,16 @@ header {
     width: 55px;
     background-color: #f1f1f1;
 }
+.box_bold{    
+    height: 55px;
+    width: 55px;
+    background-color: #d4d4d4;
+    position: relative;
+    bottom: 92.4px;
+    z-index: -1;
+}
+
+
 .box_text{
     position: relative;
     bottom:50px;
@@ -141,17 +151,31 @@ header {
     margin-left:350px;
 }
 
-#box_bold{
+
+.box_text:hover{
+    font-weight: bold;
+}
+
+.box:hover{
     background-color: #d4d4d4;
 }
-#box_text_bold{
+
+.box:hover + .box_text{
     font-weight: bold;
+}
+
+
+.box_text:hover + .box_bold{
+    z-index: 1;
+}
+
+#box_bold{
+    background-color: #d4d4d4;
 }
 
 .line{
     float: left;
     margin-left: 140px;
-    padding-bottom: 50px;
 }
 
 
