@@ -295,9 +295,10 @@ header {
 #send_button{
     font-family: 'Karla',sans-serif;
     font-size: 22px;
-    background-color: white;
+    background-color: transparent;
     border: none;
     margin-left: 260px;
+    cursor: pointer;
 }
 
 footer{
