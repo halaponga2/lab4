@@ -204,3 +204,87 @@ header {
 #about_bar{
     margin-left: 165px;
 }
+
+#contact{
+    height: 655px;
+}
+
+.contact_heading{
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.contact_text{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.contact_card{
+    margin-top: 40px;
+    margin-left:123px;
+    width: 150px;
+}
+
+
+#cc2, #cc3{
+    float:left;
+    
+}
+
+#contact_left{
+    float:left;
+    margin-top: 40px;
+}
+
+#contact_left .heading{
+    margin-bottom: 130px;
+    margin-left: 320px;
+    
+}
+
+#contact_bar{
+    margin-left: 355px;
+    margin-top: 30px;
+}
+
+#contact_right{
+    margin-left:140px;
+    float:left;
+}
+.contact_form{
+    background-color: #f1f1f1;
+    border: none;
+    height: 40px;
+    width: 560px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+#text_form{
+    height: 230px;
+    resize: none;
+}
+
+#send_button{
+    font-family: 'Karla',sans-serif;
+    font-size: 22px;
+    background-color: white;
+    border: none;
+    margin-left: 260px;
+}
+
+footer{
+    height: 80px;
+}
+
+#footer_text{
+    font-family: 'karla',sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
